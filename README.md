@@ -1,4 +1,4 @@
-# WizScripts
+# My Script Notes
 websiteresponses.py
   This program allows the user to enter a csv file with AWS web servers (HTTP endpoints) and will display the output from the websites onto a new text file
   user input: csv file name (servers.csv)
