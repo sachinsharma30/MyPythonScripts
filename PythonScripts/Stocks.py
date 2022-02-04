@@ -15,7 +15,7 @@ data = json.loads(r.text)
 i=1
 try:
 	for counter in data["results"]:
-		print(f"Day {i}:\nHigh: {counter['h']}\nLow:High: {counter['l']}\n")
+		print(f"Day {i}:\nHigh: {counter['h']}\nLow: {counter['l']}\n")
 		i+=1
 except KeyError:
 	 print("One or more of the entries was invalid\n")
